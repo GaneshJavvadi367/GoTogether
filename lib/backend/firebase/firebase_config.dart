@@ -5,7 +5,7 @@ Future initFirebase() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
         options: FirebaseOptions(
-            apiKey: "AIzaSyCTju_pl8kObxu4PBhQO3Pvy-VO8o-BORc",
+            apiKey: "",
             authDomain: "rapidoclone-ti1h26.firebaseapp.com",
             projectId: "rapidoclone-ti1h26",
             storageBucket: "rapidoclone-ti1h26.firebasestorage.app",
